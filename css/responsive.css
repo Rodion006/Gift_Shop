@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura:wght@400;600;700&display=swap" );
+
+
+@media(max-width:1439px){
+    .bestGifts_section{
+       height: 908px;
+    }
+    .bestGifts_section_container{
+        max-height: 788px;
+        height: 100%;
+    }
+    .bestGifts_section_cards{
+        max-height: 696px;
+        height: 100%;
+    }
+    footer{
+        height:928px;
+        
+    }
+    .footer_container{
+        max-height: 808px;
+        height: 100%;
+    }
+    .footer_box_container{
+        max-height: 636px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .footer_box:hover .footer_box_span1 {
+        color: unset;
+      
+    }
+
+    .footer_box:hover .footer_box_span2 {
+        color: unset;
+    }
+    .footer_social_links:hover .footer_social_icons{
+        border-radius: unset;
+        filter: unset;
+    }
+    .footer_social_span2:hover{
+        color: unset;
+        
+    }
+
+
+    .hero_button:hover{
+        background-color: #181C29;
+        border-color: #181C29;
+        color: #FFFFFF;
+    }
+    .cta_button:hover{
+        background-color: #181C29;
+        border-color: #181C29;
+        color: #FFFFFF;
+    }
+    .bestGifts_card:hover .bestGifts_card_span_text2{
+        color: unset;
+        cursor: unset;
+    }
+    body{
+        overflow-x: hidden;
+        max-width: 768px;
+        min-width: 381px;
+      }
+
+    .container{
+        max-width: 768px;
+        min-width: 381px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        max-width: 768px;
+        min-width: 381px;
+        display: flex;
+
+    }
+    .header_container{
+        max-width: 752px;
+        min-width: 364px;
+    }
+
+    .menu_container{
+        max-width: 599px;
+        min-width: 0px;
+    }
+    .nav_menu{
+        display: none;
+    }
+
+
+    .burger_menu{
+        display: flex;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        padding-right: 8px;
+    }
+    .burger_icon{
+        width: 20px;
+        height: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    .burger_icon span{
+        display: block;
+        width: 20px;
+        height: 1px;
+        background-color: black;
+        transition: transform 0.3s, opacity 0.3s;
+    }
+
+    .menu_hidden{
+        opacity: 0;
+        overflow: hidden;
+        transform: translateY(-960px);
+        transition: opacity 1s ease, transform 1s ease, max-height 1s ease;
+        top: 50px;
+        left: 0;
+        background: #fff;
+        max-width: 768px;
+        min-width: 380px;
+        width: 100%;
+        max-height: 0px;
+        height: auto;
+        position: absolute;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .menu_hidden ul {
+        list-style: none;
+        margin-top: 360px;
+       
+    }
+    .menu_hidden ul li {
+        height: 60px;
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     .menu_hidden ul li:hover a{
+        cursor: pointer;
+        color: #FF4646;
+    }
+    .menu_hidden ul li a {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36.48px;
+        letter-spacing: 0.16em;
+        color: #181C29;
+       
+    }
+    .burger_menu.active .menu_hidden {
+        justify-content: center;
+        opacity: 1; 
+        transform: translateY(0); 
+        max-height: 1024px; 
+        height: 972px;
+    }
+    .burger_menu.active .burger_icon span:nth-child(1) {
+        transform: translateY(4.5px) rotate(45deg);
+    }
+    .burger_menu.active .burger_icon span:nth-child(2) {
+        transform: translateY(-4.5px) rotate(-45deg);
+    }
+
+
+
+
+    .hero_section{
+        max-width: 768px;
+        min-width: 381px;
+    }
+   
+    .about_section{
+        max-width: 768px;
+        min-width: 381px;
+    }
+    .about_container{
+        max-width: 752px;
+        min-width: 0px;
+    }
+    .about_container_text{
+        max-width: 376px;
+        min-width: 0px;
+    }
+    .about_container_image{
+        max-width: 376px;
+        min-width: 0px;
+    }
+    .about_text{
+        max-width: 256px;
+        min-width: 0px;
+    }
+    .about_span1{
+        max-width: 256px;
+        min-width: 0px;
+        margin-top: 5px;
+    }
+    .about_span2{
+        max-width: 256px;
+        min-width: 0px;
+    }
+    .about_span3{
+        max-width: 256px;
+        min-width: 0px;
+        width: 100%;
+        max-height: 144px;
+        height: 100%;
+        margin-top: 57px; 
+    }
+    .slider_container{
+        min-width: 364px;
+    }
+    .slider_section{
+        max-width: 768px;
+        min-width: 380px;
+        
+    }
+    .slider_section_container{
+        max-width: 752px;
+        min-width: 380px;
+        width: 100%;
+    }
+   .bestGifts_section{
+    min-width: 380px;
+   }
+   .cta_section{
+    min-width: 380px;
+   }
+   footer{
+    min-width: 380px;
+   }
+   .footer_container{
+    min-width: 380px;
+   }
+   .footer_box_container{
+    min-width: 364px;
+   }
+    .footer_box{
+        max-width: 752px;
+        min-width: 364px;
+    }
+    .footer_box:hover .footer_box_span1{
+        color: black;
+    }
+    .footer_box:hover .footer_box_span2{
+        color: black;
+    }
+    .footer_contacts_container{
+        min-width: 380px;
+    }
+    .bestGifts_section_container{
+        min-width: 380px;
+    }
+    .bestGifts_section_cards{
+        min-width: 380px;
+    }
+    @media(max-width: 530px){
+        .about_text{
+            margin-top: 20px;
+        }
+        .about_span2{
+            margin-bottom: 80px;
+        }
+    }
+    @media(max-width: 647px){
+        .bestGifts_section{
+            height: 1616px;
+        }
+        .bestGifts_section_container{
+            max-height: 1616px;
+        }
+        .bestGifts_section_cards{
+            max-height: 1404px;
+        }
+    }
+    @media(max-width: 430px){
+        .button_container{
+            margin-top: 70px;
+        }
+    }
+}

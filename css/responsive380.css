@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura:wght@400;600;700&display=swap" );
+
+
+
+@media(max-width:380px){
+    body{
+        max-width: 380px;
+        min-width: 0px;
+    }
+    .container{
+        max-width: 380px;
+        min-width: 0px;
+    }
+    header{
+        max-width: 380px;
+        min-width: 0px;
+    }
+    .header_container{
+        max-width: 364px;
+        min-width: 0px;
+    }
+    .button_container{
+        margin-top: 12px;
+    }
+    .hero_section{
+        max-width: 380px;
+        min-width: 0px;
+        height: 572px;
+    }
+    .hero_container{
+        max-width: 364px;
+        min-width: 0px;
+        height: 452px;
+    }
+    .hero_h1{
+        max-width: 364px;
+        min-width: 0px;
+        width: 100%;
+        height: 192px;
+        letter-spacing: 0.18em;
+    }
+
+    .menu_hidden{
+        max-width: 380px;
+        min-width: 0px;
+    }
+    .menu_hidden ul{
+        margin-top: 255px;
+    }
+    .burger_menu.active .menu_hidden{
+        max-height: 812px;
+    }
+    
+    .about_section{
+        max-width: 380px;
+        min-width: 0px;
+        height: 1000px;
+    }
+    
+    .about_container{
+        flex-direction: column;
+        max-width: 364px;
+        min-width: 0px;
+        height: 880px;
+    }
+    .about_container_text{
+        max-width: 364px;
+        min-width: 0px;
+        height: 352px;
+    }
+
+    .about_container_image{
+        max-width: 364px;
+        min-width: 0px;
+        height: 528px;
+    }
+    .about_text{
+        max-width: 324px;
+        min-width: 0px;
+        height: 352px;
+        margin: 0 auto;
+    }
+    .about_span1{
+        margin-top: 60px;
+    }
+    .about_span2{
+        max-width: 324px;
+        min-width: 0px;
+        line-height: 36.48px;
+        margin-bottom: 0px;
+    }
+    .about_span3{
+        max-width: 324px;
+        min-width: 0px;
+        height: 96px;
+        margin-top: 20px;
+    }
+    .slider_section{
+        max-width: 380px;
+        min-width: 0px;
+        height: 488px;
+    }
+    .slider_section_container{
+        max-width: 364px;
+        min-width: 0px;
+        width: 100%;
+        height: 368px;
+    }
+    .slider-title{
+        max-width: 364px;
+        min-width: 0px;
+        width: 100%;
+    }
+    .slider_span{
+        max-width: 364px;
+    }
+    .slider_h1{
+        max-width: 364px;
+    }
+    .slider_container{
+        max-width: 364px;
+        min-width: 0px;
+    }
+    .slider_buttons{
+        max-width: 364px;
+        min-width: 0px;
+    }
+    .slider{
+        max-width: 364px;
+        min-width: 0px;
+    }
+    .bestGifts_section{
+        max-width: 380px;
+        min-width: 0px;
+        height: 1616px;
+    }
+    .bestGifts_section_container{
+        max-width: 364px;
+        min-width: 0px;
+        max-height: 1496px;
+        height: 1496px;
+    }
+    .bestGifts_section_textContainer{
+        max-width: 364px;
+        min-width: 0px;
+    }
+    .bestGifts_section_text1{
+        max-width: 364px;
+        min-width: 0px;
+    }
+    .bestGifts_section_text2{
+        max-width: 364px;
+        min-width: 0px;
+    }
+    .bestGifts_section_cards{
+        max-width: 364px;
+        min-width: 0px;
+        flex-direction: column;
+        max-height: 1404px;
+        height: 1404px;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .cta_section{
+        max-width: 380px;
+        min-width: 0px;
+        height: 704px;
+    }
+    .cta_section_container{
+        max-width: 364px;
+        min-width: 0px;
+        height: 584px;
+    }
+    .cta_container{
+        max-width: 364px;
+        width: 100%;
+        height: 464px;
+    }
+    .cta_span_container{
+        max-width: 364px;
+        width: 100%;
+        height: 144px;
+    }
+    footer{
+        max-width: 380px;
+        min-width: 0px;
+        height: 928px;
+    }
+    .footer_container{
+        max-width: 364px;
+        min-width: 0px;
+        height: 808px;
+    }
+    .footer_box_container{
+        max-width: 364px;
+        min-width: 0px;
+    }
+    .footer_box{
+        max-width: 364px;
+    }
+    .footer_contacts_container{
+        max-width: 364px;
+        min-width: 0px;
+    }
+}
